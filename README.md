@@ -1,4 +1,4 @@
-# Demo 1: Multi-Modal Material Fingerprint (Forward-Only Version)
+# Multi-Modal Material Fingerprint (Forward-Only Version)
 
 This demo shows how to learn a compact **material fingerprint** from multi-modal plasma sensor data using a straightforward feed-forward neural network.
 
@@ -7,6 +7,7 @@ It is designed to illustrate core ideas relevant to SirenOpt’s PlasmaSens plat
 - Creating a low-dimensional representation that captures material properties
 - Testing generalization to a held-out material / domain
 
+![multimodal_representation](multimodal_representation.png)
 ---
 
 ## Overview
@@ -49,3 +50,4 @@ Process (3)   ──► Encoder ──►  8
                               │
                               ▼
                   Property Head → [Thickness, Density, Resistivity]
+
