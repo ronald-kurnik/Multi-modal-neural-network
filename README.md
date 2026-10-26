@@ -2,7 +2,7 @@
 
 This demo shows how to learn a compact **material fingerprint** from multi-modal plasma sensor data using a straightforward feed-forward neural network.
 
-It is designed to illustrate core ideas relevant to SirenOpt’s PlasmaSens platform:
+It is designed to illustrate core ideas relevant to a PlasmaSens platform:
 - Fusing optical emission spectra, electrical signals, thermal features, and process parameters
 - Creating a low-dimensional representation that captures material properties
 - Testing generalization to a held-out material / domain
